@@ -1,0 +1,178 @@
+Karabiner Complex Modification | Still a work in progress
+
+Modification Title
+Ergodox 2
+
+NM -> [] / {}
+I O -> ( )
+Type
+Key Code (optional)
+I
+Pointing Button (optional)
+Mandatory Modifiers (optional)
+Function key
+Modifiers
+Optional Modifiers (optional)
+Key Codes, Modifiers
+Key Code (optional)
+9
+Pointing Button (optional)
+Modifiers
+Left Shift
+Modifiers
+Additional Options
+Lazy
+Repeat
+Halt
+Type
+Key Code (optional)
+O
+Pointing Button (optional)
+Mandatory Modifiers (optional)
+Function key
+Modifiers
+Optional Modifiers (optional)
+Key Codes, Modifiers
+Key Code (optional)
+0
+Pointing Button (optional)
+Modifiers
+Left Shift
+Modifiers
+Additional Options
+Lazy
+Repeat
+Halt
+Your Modification
+
+{
+  "title": "Ergodox 2",
+  "rules": [
+    {
+      "description": "NM -> [] / {}",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "fn"
+              ]
+            },
+            "key_code": "y"
+          },
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "open_bracket"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "fn",
+                "left_shift"
+              ]
+            },
+            "key_code": "y"
+          },
+          "to": [
+            {
+              "repeat": true,
+              "modifiers": [
+                "left_shift"
+              ],
+              "key_code": "open_bracket"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "fn"
+              ]
+            },
+            "key_code": "u"
+          },
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "close_bracket"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "fn",
+                "left_shift"
+              ]
+            },
+            "key_code": "u"
+          },
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "close_bracket",
+              "modifiers": [
+                "left_shift"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "I O -> ( )",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "fn"
+              ]
+            },
+            "key_code": "i"
+          },
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "9",
+              "modifiers": [
+                "left_shift"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "fn"
+              ]
+            },
+            "key_code": "o"
+          },
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "0",
+              "modifiers": [
+                "left_shift"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
