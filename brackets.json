@@ -1,50 +1,3 @@
-Karabiner Complex Modification | Still a work in progress
-
-Modification Title
-Ergodox 2
-
-NM -> [] / {}
-I O -> ( )
-Type
-Key Code (optional)
-I
-Pointing Button (optional)
-Mandatory Modifiers (optional)
-Function key
-Modifiers
-Optional Modifiers (optional)
-Key Codes, Modifiers
-Key Code (optional)
-9
-Pointing Button (optional)
-Modifiers
-Left Shift
-Modifiers
-Additional Options
-Lazy
-Repeat
-Halt
-Type
-Key Code (optional)
-O
-Pointing Button (optional)
-Mandatory Modifiers (optional)
-Function key
-Modifiers
-Optional Modifiers (optional)
-Key Codes, Modifiers
-Key Code (optional)
-0
-Pointing Button (optional)
-Modifiers
-Left Shift
-Modifiers
-Additional Options
-Lazy
-Repeat
-Halt
-Your Modification
-
 {
   "title": "Ergodox 2",
   "rules": [
@@ -166,6 +119,31 @@ Your Modification
             {
               "repeat": true,
               "key_code": "0",
+              "modifiers": [
+                "left_shift"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "S -> $",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "fn"
+              ]
+            },
+            "key_code": "s"
+          },
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "4",
               "modifiers": [
                 "left_shift"
               ]
