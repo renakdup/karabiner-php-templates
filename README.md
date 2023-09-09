@@ -8,3 +8,7 @@ FN + N/M + (SHIFT) -> []/{}
 FN + I/O -> (/)  
 FN + S -> $  
  
+
+
+
+ALso there is the https://software.sil.org/ukelele/ app for the same reason with better GUI in some way.
